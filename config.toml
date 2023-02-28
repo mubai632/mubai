@@ -1,5 +1,5 @@
 baseURL = 'http://xxx.xxx/'
-languageCode = 'zh-cn'
+languageCode = 'en-us'
 
 # website title
 # 网站标题
@@ -9,10 +9,10 @@ title = 'mubai'
 theme = "NewBee"
 # default content of website
 # 网站默认语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 # whether to use robots.txt
 # 是否使用 robots.txt
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 # length of summary
 # 摘要的字数限制
@@ -21,11 +21,11 @@ summaryLength = 50
 # If true, auto-detect Chinese/Japanese/Korean Languages in the content.
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 # 中日韩语言请改为 true
-hasCJKLanguage = false
+hasCJKLanguage = true
 
 [author]
     name = "mubai"
-    description = "A blogger who knows nothing"
+    description = "一个新手博主"
     # profile photo of author in author card
     # 作者头像
     image = "/images/头像.jpg"
@@ -39,10 +39,89 @@ hasCJKLanguage = false
     category = "categories"
     tag = "tags"
     series = "series"
-    
+
+
+[language]
+    [[language.zh]] # language.之后跟的是你所使用语言的标识符，必须和上面 deFaultContentLanguage 一样
+        languageName = '简体中文' # 语言名称
+        weight = 1 # 不要修改
+    [[language.en]] # 不要修改
+        languageName = 'English' # 不要修改
+        weight = 2 # 不要修改
+
+
+[languages] 
+    # 这是默认语言的配置 
+    [languages.zh] # language.之后跟的是你所使用语言的标识符，必须和上面 deFaultContentLanguage 一样
+        languageName = '简体中文' # 名称，这将是你在网站下拉菜单里选择语言时所显示的名称
+        weight = 1 # 权重，默认语言的权重必须设置成 1 且不能和其它语言重复！！！，所以当你更改了默认语言的时候，请记得把它改为1
+        contentDir = 'content/chinese' # 文件路径，在content目录下需要新增语言文件夹以区分不同语言的文章
+
+    # 其他语言的配置
+    [languages.en]
+        languageName = 'English'
+        weight = 2
+        contentDir = 'content/english'
+
+        # 每添加一门新的语言，你可能都得重新配置（翻译） menu 信息，其中包含了导航栏[[menus.main]]、
+        # 社交链接[[menus.social]]和赞赏卡片[[menus.sponsor]]
+        [languages.en.menus] # 和默认[menus]的配置一样，只是增加了一个前缀：'language.en.'
+            # navigation
+            # 导航栏
+            [[languages.en.menus.main]]
+                name = "Home" # 名称
+                url = "/en" # 路径，在'/'之后加上该语言标识符，这很重要！！！。下同
+                weight = 1 # 排序的权重，越小越靠前（左），最小为1 # order weight, more small more close to left,  at least 1
+                pre = "<i class='fa fa-home'></i>" # 图标，本主题使用的图标来自FontAwesome
+            [[languages.en.menus.main]]
+                name = "Posts"
+                url = "/en/posts"
+                weight = 2
+                pre = "<i class='fa fa-book'></i>"
+            [[languages.en.menus.main]]
+                name = "Categories"
+                url = "/en/categories"
+                weight = 3
+                pre = "<i class='fa fa-folder-open'></i>"
+            [[languages.en.menus.main]]
+                name = "Tags"
+                url = "/en/tags"
+                weight = 5
+                pre = "<i class='fa fa-tags'></i>"        
+            [[languages.en.menus.main]]
+                name = "About"
+                url = "/en/about"
+                weight = 6
+                pre = "<i class='fa fa-info-circle'></i>"
+
+            # social
+            # 社交链接
+            [[languages.en.menus.social]]
+                name = ""
+                url = ""
+                pre = "<i class='fa fa-github'></i>"
+                weight = 1
+            [[languages.en.menus.social]]
+                name = ""
+                url = ""
+                pre = "<i class='fa fa-youtube'></i>"
+                weight = 2
+
+            # sponsor
+            # 赞赏卡片
+#            [[languages.en.menus.sponsor]]
+#                name = "Wechat"
+#                url = "/images/sponsor/Wechat.jpeg"
+#                weight = 1
+#            [[languages.en.menus.sponsor]]
+#                name = "Alipay"
+#                url = "/images/sponsor/Alipay.jpeg"
+#                weight = 2
+
+
 [params]
     [params.site]
-        onlyOneLang = true
+        onlyOneLang = false
         # style of theme: auto, light, dark
         mode = 'auto'
     # page configuration
@@ -174,13 +253,13 @@ hasCJKLanguage = false
     # social, maxum 6
     # 作者卡片社交链接，最多6个
     [[menus.social]]
-        name = ""
-        url = ""
-        pre = "<i class=''></i>"
+        name = "GitHub"
+        url = "https://github.com/xioyito"
+        pre = "<i class='fa fa-github'></i>"
         weight = 1
     [[menus.social]]
-        name = ""
-        url = ""
+        name = "YouTube"
+        url = "https://www.youtube.com"
         pre = "<i class='fa fa-youtube'></i>"
         weight = 2
 
