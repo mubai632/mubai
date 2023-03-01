@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://www.mubai632.top/categories/</loc>
-  </url><url>
-    <loc>https://www.mubai632.top/</loc>
-  </url><url>
-    <loc>https://www.mubai632.top/series/</loc>
-  </url><url>
-    <loc>https://www.mubai632.top/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://mubai/zh/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mubai/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
