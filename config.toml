@@ -187,7 +187,7 @@ hasCJKLanguage = true
     # Valine评论（详情请移步：https://valine.js.org/）
     [params.valine]
         # 是否开启Valine评论系统
-        enable = true
+        enable = false
         # appid，具体请参考：https://valine.js.org/configuration.html#appId
         appid = 'xxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxx'
         # appKey，具体请参考：https://valine.js.org/configuration.html#appKey

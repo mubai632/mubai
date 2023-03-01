@@ -31,7 +31,7 @@ lastmod: "2023-03-01"
 draft: true
 description: "markdown扩展语法"
 image: "/images/book.jpg"
-tags: ["NewBee", "主题", "Hugo"]
+tags: ["muabi", "主题", "Hugo"]
 categories: ["初始化"]
 series: ["创建"]
 ---
