@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mubai</title>
-    <link>https://github.com/mubai632/mubai/</link>
+    <link>https://mubai632/mubai/</link>
     <description>Recent content on mubai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2023 10:13:05 +0800</lastBuildDate><atom:link href="https://github.com/mubai632/mubai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 10:13:05 +0800</lastBuildDate><atom:link href="https://mubai632/mubai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>markdown扩展语法</title>
-      <link>https://github.com/mubai632/mubai/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</link>
+      <link>https://mubai632/mubai/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Wed, 01 Mar 2023 10:13:05 +0800</pubDate>
       
-      <guid>https://github.com/mubai632/mubai/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</guid>
+      <guid>https://mubai632/mubai/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</guid>
       <description></description>
     </item>
     
