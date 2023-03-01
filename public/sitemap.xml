@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://xxx.xxx/categories/</loc>
+    <loc>https://github.com/mubai632/mubai/categories/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/tags/hugo/</loc>
+    <loc>https://github.com/mubai632/mubai/tags/hugo/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</loc>
+    <loc>https://github.com/mubai632/mubai/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/tags/muabi/</loc>
+    <loc>https://github.com/mubai632/mubai/tags/muabi/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/</loc>
+    <loc>https://github.com/mubai632/mubai/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/posts/</loc>
+    <loc>https://github.com/mubai632/mubai/posts/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/series/</loc>
+    <loc>https://github.com/mubai632/mubai/series/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/tags/</loc>
+    <loc>https://github.com/mubai632/mubai/tags/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/tags/%E4%B8%BB%E9%A2%98/</loc>
+    <loc>https://github.com/mubai632/mubai/categories/%E5%88%9D%E5%A7%8B%E5%8C%96/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/series/%E5%88%9B%E5%BB%BA/</loc>
+    <loc>https://github.com/mubai632/mubai/series/%E5%88%9B%E5%BB%BA/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://xxx.xxx/categories/%E5%88%9D%E5%A7%8B%E5%8C%96/</loc>
+    <loc>https://github.com/mubai632/mubai/tags/%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>
