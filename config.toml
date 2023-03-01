@@ -1,4 +1,4 @@
-baseURL = 'http://xxx.xxx/'
+baseURL = 'https://www.mubai632.top/'
 languageCode = 'en-us'
 
 # website title
@@ -253,15 +253,35 @@ hasCJKLanguage = true
     # social, maxum 6
     # 作者卡片社交链接，最多6个
     [[menus.social]]
-        name = "GitHub"
-        url = "https://github.com/xioyito"
-        pre = "<i class='fa fa-github'></i>"
+        name = "email"
+        url = "mailto:mubai632@gmail.com"
+        pre = "<i class='fa fa-envelope'></i>"
         weight = 1
     [[menus.social]]
         name = "YouTube"
-        url = "https://www.youtube.com"
+        url = "https://www.youtube.com/channel/UCZGWLy3bw0-yGvL3x0GMKrQ"
         pre = "<i class='fa fa-youtube'></i>"
         weight = 2
+    [[menus.social]]
+        name  = "Twitter"
+        url = "https://twitter.com/mubai632"
+        pre = "<i class='fa fa-twitter'></i>"
+        weight = 3
+#    [[menus.social]]
+#        name = ""
+#        url = ""
+#        pre = "<i class=''></i>"
+#        weight = 4
+#    [[menus.social]]
+#        name = ""
+#        url = ""
+#        pre = "<i class=''></i>"
+#        weight = 5
+#    [[menus.social]]
+#        name  = ""
+#        url = ""
+#        pre = "<i class=''></i>"
+#        weight = 6    
 
     # sponsor, maxum 3
     # 赞赏，最多支持3个
@@ -329,7 +349,7 @@ hasCJKLanguage = true
 
     # enable the following code if there are html statements in your md file
     # 如果md文件中有html语句，请启用以下代码
-    # [markup.goldmark]
-    #     [markup.goldmark.renderer]
-    #         unsafe = true
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
   
