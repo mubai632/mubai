@@ -1,15 +1,15 @@
-baseURL = 'http://xxx.xxx/'
+baseURL = 'http://mubai/'
 languageCode = 'en-us'
 
 # website title
 # 网站标题
-title = 'NewBee'
+title = 'mubai'
 # theme
 # 主题
 theme = "NewBee"
 # default content of website
 # 网站默认语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
