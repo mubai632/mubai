@@ -2,12 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.mubai632.top/categories/</loc>
+    <loc>https://www.mubai632.top/about/</loc>
+    <lastmod>2023-03-01T22:48:57+08:00</lastmod>
   </url><url>
     <loc>https://www.mubai632.top/</loc>
+    <lastmod>2023-03-01T22:48:57+08:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/categories/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/tags/hugo/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/posts/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/tags/muabi/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/posts/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.mubai632.top/series/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.mubai632.top/tags/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/categories/%E5%88%9D%E5%A7%8B%E5%8C%96/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/series/%E5%88%9B%E5%BB%BA/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.mubai632.top/tags/%E4%B8%BB%E9%A2%98/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>
